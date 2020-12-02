@@ -1,0 +1,478 @@
+body{
+    margin:0px;
+    font-family: 'Raleway';
+    background-color: #000;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.top-header-left {
+    width: 70%;
+}
+.top-header {
+    background: #000;
+    padding: 5px 0px;
+}
+.top-header-right{
+    width:30%;
+    text-align: right;
+}
+.fluid-container {
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.serach-icon span {
+    position: absolute;
+}
+.serach-icon img {
+    position: relative;
+}
+ol, ul{
+    list-style: none;
+    padding: 0px;
+}
+a{
+text-decoration: none;
+}
+h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #fdc724;
+    margin: 0px;
+    font-family: 'HelveticaNeue';
+    font-weight: 100;
+    padding-left: 215px;
+}
+h1{
+    font-size: 21px;
+    margin: 12px 0px 8px;
+}
+.logo-text-column p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+h3{
+    font-size: 20px;
+}
+h6 {
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+}
+h4{
+    font-size: 21px;
+    text-align: center;
+    color: #3c3c3c;
+    margin-bottom: 8px;
+}
+.select-language {
+    padding: 6px 16px;
+    color: #00000085;
+}
+.bottom-header {
+    background: #333333;
+    padding: 13px 0px 35px;
+    text-align: center;
+}
+.serach-icon {
+    text-align: right;
+    width: 100%;
+    margin-right: 100px;
+}
+.row.logo-row {
+    padding: 0px 109px;
+    text-align: center;
+}
+.logo-section {
+    background: #d7b94e;
+}
+.logo-left {
+    width: 33.33%;
+    margin-top: -39px;
+}
+.logo-image{
+    width: 33.33%;  
+    margin-top: -45px;
+}
+.logo-right{
+    width:33.33%;
+}
+.serach-icon span {
+    color: #fff;
+}
+.logo-right a {
+    background: #000;
+    text-decoration: none;
+    color: #ffff;
+    padding: 13px 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.logo-text-column {
+    width: 100%;
+    text-align: center;
+}
+.logo-text {
+    padding-bottom: 25px;
+}
+nav{
+    width:100%;
+    text-align: center;
+}
+.nav-bar li {
+    display: inline;
+}
+.navigation-section {
+    background: #3c3c3c;
+    position: relative;
+}
+.toggle-bar {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 40px;
+    height: 26px;
+    display: none;
+}
+.toggle-bar span {
+position: absolute;
+transition: .3s cubic-bezier(.8,.5,.2,1.4);
+    transition-duration: 0.3s;
+width: 100%;
+height: 4px;
+transition-duration: .5s;
+background: #fff;
+}
+.toggle-bar span:first-child{
+    top: 0px;
+}
+.toggle-bar span:nth-child(2){
+    top: 11px;
+}
+.toggle-bar span:last-child{
+    bottom: 0px;
+}
+ul.nav-bar a {
+    color: #fff;
+    font-size: 16px;
+    padding: 0px 12px;
+    border-right: 1px #fff solid;
+    line-height: 14px;
+}
+.charity-list li:hover {
+    background: #d7b94e;
+}
+.nav-bar li:last-child a{
+    border-right:0px;
+}
+.navigtaion-strip {
+    padding: 20px 0px;
+    background: #000;
+}
+.categoery-section {
+    background: #3c3c3c;
+    padding: 20px 0px;
+    border-bottom: 5px solid #d7b94e;
+}
+.cat-column a {
+    color: #d7b94e;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 8px;
+}
+span.cat-icon-1 {
+    padding-right: 9px;
+}
+.cat-column {
+    padding: 12px;
+}
+.global-charity-row {
+    border: 1px solid #00000038;
+    padding: 10px 46px;
+}
+ul.charity-list li {
+    width: 48%;
+    float: left;
+    text-align: center;
+    margin: 0px 6px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 66px;
+    background: #3c3c3c;
+    position: relative;
+    border-radius: 2px;
+    height: 100%;
+    cursor: pointer;
+}
+.main-box {
+    width: 1000px;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 6px #bababa;
+}
+
+.global-charity-column a {
+    color: #fff;
+}
+.sub-title {
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+}
+.global-charity-section {
+    padding: 30px 0px 40px;
+    background: #fff;
+}
+.charity-list {
+    margin-top: 47px;
+}
+.global-charity-list {
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+}
+.global-charity-paragraph {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.global-charity-paragraph p {
+font-size: 15px;
+line-height: 23px;
+color: rgb(0, 0, 0);
+font-size: 15px;
+line-height: 22px;
+text-align: justify;
+font-weight: 500;
+}
+.global-plateform-sec {
+    background: #000;
+    padding: 60px 0px 20px;
+}
+.plateform-column {
+    width: 33.33%;
+    padding: 0px 15px;
+    text-align: center;
+}
+.plateform-column h5 {
+    color: #d7b94e;
+    line-height: 27px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.plateform-column a{
+    color: white;
+    font-style: italic;
+    font-size: 14px;
+}
+.plateform-column img {
+    padding-top: 12px;
+    width: 50%;
+}
+.plateform-column p{
+    margin-top: 15px;
+    color: #767676;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer-column {
+    width: 50%
+}
+footer.site-footer {
+    background: #d7b94e;
+}
+.footer-column h5 {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+}
+.copy-right {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+footer.site-footer {
+    background: #d7b94e;
+    padding: 50px 0px 50px;
+}
+.top-header-right{
+    position: relative;
+}
+.top-header-right:before {
+    position: absolute;
+    top: 11px;
+    z-index: 999;
+    right: 5px;
+    width: 11px;
+    height: 11px;
+    content: "";
+    background: url('../images/drop-down-icon.png');
+}
+.comming-soon-section{
+background: #fff;
+padding:130px;
+}
+.comming-soon-section h3 {
+    text-align: center;
+margin: 0;
+text-transform: capitalize;
+font-size: 30px;
+
+}
+.select-language {
+    padding: 6px 5px;
+    color: #00000085;
+    position: relative;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 135px;
+}
+.comming-soon-section p{
+text-align: center;
+}
+@media (max-width: 1199px) {
+    ul.nav-bar a {
+        padding: 0px 12px;
+    }
+    .charity-list li {
+        width: 48% !important;
+    }
+}
+
+@media (max-width: 991px) {
+.toggle-bar {
+    display: block;
+}
+nav{
+    display: none;
+    text-align: left;
+}
+.open-menu-bar{
+    display: block;
+}
+.nav-bar li{
+    display: block;
+    padding: 6px 10px;
+}
+ul.nav-bar a {
+    padding: 0px 14px;
+    border-right: 0px #fff solid;
+}
+.nav-bar {
+    background: #d7b94e;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    top: 25px;
+    padding: 20px 0px;
+}
+h2 {
+    padding-left: 122px;
+}
+.row.logo-row {
+     padding: 0px 0px;
+}
+.main-box {
+    width: 100%;
+}
+}
+@media (max-width: 767px) {
+.global-plateform-sec .row {
+     display: block;
+}
+.plateform-column {
+    width: 100%;
+}
+.charity-list li {
+    width: 100% !important;
+}
+.logo-right a {
+    font-size: 13px;
+    padding: 13px 10px;
+}
+h2 {
+    padding-left: 0;
+    text-align: center;
+    font-size: 35px;
+}
+.plateform-column img {
+    width: 25%;
+}
+.plateform-column {
+    padding: 0px 0px;
+}
+}
+@media (max-width: 567px) {
+    .top-header .row{
+display: block;
+    }
+    .top-header-left{
+        width: 100%;
+    }
+    .top-header-right{
+        width:100%;
+    }
+    h2 {
+        text-align: center;
+        font-size: 21px;
+        margin: 16px 0px;
+    }
+    .serach-icon {
+        text-align: center;
+    }
+    .row.logo-row {
+        display: block;
+        text-align: center;
+    } 
+    .logo-left{
+        width:100%;
+        padding: 20px 0px;
+    }  
+    .logo-image {
+        width:100%;
+        margin:0; 
+        padding: 20px 0px;
+    }
+    .logo-right{
+        width:100%;
+        padding: 20px 0px;
+    }
+    .site-footer .row {
+        display: block;
+    }
+    .footer-column, .footer-image {
+        width: 100%;
+    }
+    .sub-title {
+        font-size: 13px;
+    }
+    .charity-list li {
+        margin: 0px 0px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    .logo-text-column p {
+        font-size: 15px;
+    }
+    .plateform-column img {
+        width: 60%;
+    }
+
+}
